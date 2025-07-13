@@ -1,0 +1,6 @@
+{
+  "kind": "HumanlogDatasource",
+  "spec": {
+    "directUrl": "http://localhost:32764",
+  }
+}
