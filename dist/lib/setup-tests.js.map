@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/setup-tests.ts"],"sourcesContent":["import \"@testing-library/jest-dom\";\n\n// Always mock e-charts during tests since we don't have a proper canvas in jsdom\njest.mock(\"echarts/core\");\n"],"names":["jest","mock"],"mappings":"AAAA,OAAO,4BAA4B;AAEnC,iFAAiF;AACjFA,KAAKC,IAAI,CAAC"}

@@ -7,7 +7,7 @@
 
 # Dist
 node_modules
-dist/
+# dist/  <- Comment out or delete this line
 
 # IDE
 .vscode/*

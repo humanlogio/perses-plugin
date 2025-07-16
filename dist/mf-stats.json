@@ -1,0 +1,595 @@
+{
+  "id": "Humanlog",
+  "name": "Humanlog",
+  "metaData": {
+    "name": "Humanlog",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.1.0",
+      "buildName": "@humanlogio/perses-plugin"
+    },
+    "remoteEntry": {
+      "name": "__mf/js/Humanlog.5fbf7360.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "",
+      "api": ""
+    },
+    "globalName": "Humanlog",
+    "pluginVersion": "0.11.4",
+    "prefetchInterface": false,
+    "publicPath": "/plugins/Humanlog/"
+  },
+  "shared": [
+    {
+      "singleton": true,
+      "requiredVersion": "18.2.0",
+      "shareScope": "default",
+      "name": "react",
+      "version": "18.2.0",
+      "eager": false,
+      "id": "Humanlog:react",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "__mf/js/async/1512.b2bed874.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "18.2.0",
+      "shareScope": "default",
+      "name": "react-dom",
+      "version": "18.2.0",
+      "eager": false,
+      "id": "Humanlog:react-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js"
+          ],
+          "sync": [
+            "__mf/js/async/7987.1e7949bf.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.51.1",
+      "shareScope": "default",
+      "name": "@perses-dev/plugin-system",
+      "version": "^0.51.0-beta.1",
+      "eager": false,
+      "id": "Humanlog:@perses-dev/plugin-system",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/7987.1e7949bf.js",
+            "__mf/js/async/7421.ee219ec1.js",
+            "__mf/js/async/5583.fbce9c56.js",
+            "__mf/js/async/634.fe663cf0.js",
+            "__mf/js/async/6929.489ea1db.js",
+            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/367.2066428a.js",
+            "__mf/js/async/9514.321660bd.js",
+            "__mf/js/async/9652.d8a01e0a.js",
+            "__mf/js/async/4853.b53409c3.js",
+            "__mf/js/async/8780.2880ac13.js",
+            "__mf/js/async/9456.734bba18.js",
+            "__mf/js/async/8332.86ec72a8.js",
+            "__mf/js/async/5853.083b9b3d.js",
+            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/3539.e30f7736.js",
+            "__mf/js/async/6903.9206bee1.js",
+            "__mf/js/async/2469.126b99bb.js",
+            "__mf/js/async/757.3fdf0371.js",
+            "__mf/js/async/2803.461b984e.js",
+            "__mf/js/async/3948.c886a16c.js"
+          ],
+          "sync": [
+            "__mf/js/async/4662.a05e17ff.js"
+          ]
+        },
+        "css": {
+          "async": [
+            "__mf/css/async/6910.06dad2b8.css"
+          ],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^4.1.0",
+      "shareScope": "default",
+      "name": "date-fns",
+      "version": "4.1.0",
+      "eager": false,
+      "id": "Humanlog:date-fns",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "__mf/js/async/7323.0a98c720.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^4.40.1",
+      "shareScope": "default",
+      "name": "@tanstack/react-query",
+      "version": "^4.39.1",
+      "eager": false,
+      "id": "Humanlog:@tanstack/react-query",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js"
+          ],
+          "sync": [
+            "__mf/js/async/8332.86ec72a8.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^11.11.3",
+      "shareScope": "default",
+      "name": "@emotion/react",
+      "version": "^11.11.3",
+      "eager": false,
+      "id": "Humanlog:@emotion/react",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js"
+          ],
+          "sync": [
+            "__mf/js/async/5583.fbce9c56.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.2.0",
+      "shareScope": "default",
+      "name": "date-fns-tz",
+      "version": "3.2.0",
+      "eager": false,
+      "id": "Humanlog:date-fns-tz",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/634.fe663cf0.js",
+            "__mf/js/async/7323.0a98c720.js"
+          ],
+          "sync": [
+            "__mf/js/async/367.2066428a.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.51.1",
+      "shareScope": "default",
+      "name": "@perses-dev/components",
+      "version": "0.51.1",
+      "eager": false,
+      "id": "Humanlog:@perses-dev/components",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/7987.1e7949bf.js",
+            "__mf/js/async/7421.ee219ec1.js",
+            "__mf/js/async/5583.fbce9c56.js",
+            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/367.2066428a.js",
+            "__mf/js/async/9514.321660bd.js"
+          ],
+          "sync": [
+            "__mf/js/async/8780.2880ac13.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^7.60.0",
+      "shareScope": "default",
+      "name": "react-hook-form",
+      "version": "7.46.1",
+      "eager": false,
+      "id": "Humanlog:react-hook-form",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js"
+          ],
+          "sync": [
+            "__mf/js/async/9514.321660bd.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^6.30.1",
+      "shareScope": "default",
+      "name": "react-router-dom",
+      "version": "6.26.0",
+      "eager": false,
+      "id": "Humanlog:react-router-dom",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/7987.1e7949bf.js"
+          ],
+          "sync": [
+            "__mf/js/async/5853.083b9b3d.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^undefined",
+      "shareScope": "default",
+      "name": "echarts",
+      "version": "5.5.0",
+      "eager": false,
+      "id": "Humanlog:echarts",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "__mf/js/async/3312.98a7d7e1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.51.1",
+      "shareScope": "default",
+      "name": "@perses-dev/explore",
+      "version": "^0.51.0-beta.1",
+      "eager": false,
+      "id": "Humanlog:@perses-dev/explore",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/7421.ee219ec1.js",
+            "__mf/js/async/5583.fbce9c56.js",
+            "__mf/js/async/6303.59078a36.js",
+            "__mf/js/async/2051.7b301985.js",
+            "__mf/js/async/8047.f50d3ece.js",
+            "__mf/js/async/4662.a05e17ff.js",
+            "__mf/js/async/9456.734bba18.js",
+            "__mf/js/async/9514.321660bd.js",
+            "__mf/js/async/7987.1e7949bf.js",
+            "__mf/js/async/8332.86ec72a8.js",
+            "__mf/js/async/634.fe663cf0.js",
+            "__mf/js/async/6929.489ea1db.js",
+            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/5853.083b9b3d.js",
+            "__mf/js/async/4853.b53409c3.js",
+            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/6903.9206bee1.js",
+            "__mf/js/async/9652.d8a01e0a.js",
+            "__mf/js/async/2469.126b99bb.js",
+            "__mf/js/async/2803.461b984e.js",
+            "__mf/js/async/367.2066428a.js",
+            "__mf/js/async/3948.c886a16c.js",
+            "__mf/js/async/757.3fdf0371.js",
+            "__mf/js/async/8780.2880ac13.js"
+          ],
+          "sync": [
+            "__mf/js/async/3539.e30f7736.js"
+          ]
+        },
+        "css": {
+          "async": [
+            "__mf/css/async/6910.06dad2b8.css"
+          ],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^0.51.1",
+      "shareScope": "default",
+      "name": "@perses-dev/dashboards",
+      "version": "^0.51.0-beta.1",
+      "eager": false,
+      "id": "Humanlog:@perses-dev/dashboards",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/7987.1e7949bf.js",
+            "__mf/js/async/7421.ee219ec1.js",
+            "__mf/js/async/5583.fbce9c56.js",
+            "__mf/js/async/634.fe663cf0.js",
+            "__mf/js/async/6929.489ea1db.js",
+            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/9514.321660bd.js",
+            "__mf/js/async/6303.59078a36.js",
+            "__mf/js/async/2051.7b301985.js",
+            "__mf/js/async/8047.f50d3ece.js",
+            "__mf/js/async/4662.a05e17ff.js",
+            "__mf/js/async/9456.734bba18.js",
+            "__mf/js/async/8332.86ec72a8.js",
+            "__mf/js/async/5853.083b9b3d.js",
+            "__mf/js/async/4853.b53409c3.js",
+            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/3539.e30f7736.js",
+            "__mf/js/async/6903.9206bee1.js",
+            "__mf/js/async/2803.461b984e.js",
+            "__mf/js/async/367.2066428a.js",
+            "__mf/js/async/3948.c886a16c.js",
+            "__mf/js/async/757.3fdf0371.js",
+            "__mf/js/async/8780.2880ac13.js"
+          ],
+          "sync": [
+            "__mf/js/async/2469.126b99bb.js"
+          ]
+        },
+        "css": {
+          "async": [
+            "__mf/css/async/6910.06dad2b8.css"
+          ],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^4.17.21",
+      "shareScope": "default",
+      "name": "lodash",
+      "version": "4.17.21",
+      "eager": false,
+      "id": "Humanlog:lodash",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "__mf/js/async/3948.c886a16c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^11.14.1",
+      "shareScope": "default",
+      "name": "@emotion/styled",
+      "version": "^11.6.0",
+      "eager": false,
+      "id": "Humanlog:@emotion/styled",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/5583.fbce9c56.js"
+          ],
+          "sync": [
+            "__mf/js/async/6363.a7b5a580.js",
+            "__mf/js/async/7421.ee219ec1.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^3.10.0",
+      "shareScope": "default",
+      "name": "@hookform/resolvers",
+      "version": "^2.0.0",
+      "eager": false,
+      "id": "Humanlog:@hookform/resolvers",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/9514.321660bd.js",
+            "__mf/js/async/1512.b2bed874.js"
+          ],
+          "sync": [
+            "__mf/js/async/5869.da4e41eb.js",
+            "__mf/js/async/9456.734bba18.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "path": "./HumanlogDatasource",
+      "id": "Humanlog:HumanlogDatasource",
+      "name": "HumanlogDatasource",
+      "requires": [],
+      "file": "src/datasources/humanlog-datasource",
+      "assets": {
+        "js": {
+          "sync": [
+            "__mf/js/async/5833.a70b33ce.js",
+            "__mf/js/async/__federation_expose_HumanlogDatasource.1ce88766.js"
+          ],
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/6303.59078a36.js",
+            "__mf/js/async/2051.7b301985.js",
+            "__mf/js/async/8047.f50d3ece.js",
+            "__mf/js/async/3274.c0b2ad13.js",
+            "__mf/js/async/3843.aa0f8be5.js",
+            "__mf/js/async/4662.a05e17ff.js",
+            "__mf/js/async/9652.d8a01e0a.js",
+            "__mf/js/async/634.fe663cf0.js",
+            "__mf/js/async/6929.489ea1db.js",
+            "__mf/js/async/4853.b53409c3.js",
+            "__mf/js/async/8780.2880ac13.js",
+            "__mf/js/async/7987.1e7949bf.js",
+            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/367.2066428a.js",
+            "__mf/js/async/9514.321660bd.js",
+            "__mf/js/async/9456.734bba18.js",
+            "__mf/js/async/7421.ee219ec1.js",
+            "__mf/js/async/5583.fbce9c56.js",
+            "__mf/js/async/8332.86ec72a8.js",
+            "__mf/js/async/5853.083b9b3d.js",
+            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/3539.e30f7736.js",
+            "__mf/js/async/6903.9206bee1.js",
+            "__mf/js/async/2469.126b99bb.js",
+            "__mf/js/async/2803.461b984e.js",
+            "__mf/js/async/3948.c886a16c.js",
+            "__mf/js/async/757.3fdf0371.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": [
+            "__mf/css/async/6910.06dad2b8.css"
+          ]
+        }
+      }
+    },
+    {
+      "path": "./HumanlogTimeSeriesQuery",
+      "id": "Humanlog:HumanlogTimeSeriesQuery",
+      "name": "HumanlogTimeSeriesQuery",
+      "requires": [],
+      "file": "src/queries/humanlog-time-series-query",
+      "assets": {
+        "js": {
+          "sync": [
+            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.e6c63cc0.js"
+          ],
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/6303.59078a36.js",
+            "__mf/js/async/2051.7b301985.js",
+            "__mf/js/async/8047.f50d3ece.js",
+            "__mf/js/async/3274.c0b2ad13.js",
+            "__mf/js/async/3843.aa0f8be5.js",
+            "__mf/js/async/4662.a05e17ff.js",
+            "__mf/js/async/9652.d8a01e0a.js",
+            "__mf/js/async/634.fe663cf0.js",
+            "__mf/js/async/6929.489ea1db.js",
+            "__mf/js/async/4853.b53409c3.js",
+            "__mf/js/async/8780.2880ac13.js",
+            "__mf/js/async/7987.1e7949bf.js",
+            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/367.2066428a.js",
+            "__mf/js/async/9514.321660bd.js",
+            "__mf/js/async/9456.734bba18.js",
+            "__mf/js/async/7421.ee219ec1.js",
+            "__mf/js/async/5583.fbce9c56.js",
+            "__mf/js/async/8332.86ec72a8.js",
+            "__mf/js/async/5853.083b9b3d.js",
+            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/3539.e30f7736.js",
+            "__mf/js/async/6903.9206bee1.js",
+            "__mf/js/async/2469.126b99bb.js",
+            "__mf/js/async/2803.461b984e.js",
+            "__mf/js/async/3948.c886a16c.js",
+            "__mf/js/async/757.3fdf0371.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": [
+            "__mf/css/async/6910.06dad2b8.css"
+          ]
+        }
+      }
+    }
+  ]
+}
