@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.ts"],"sourcesContent":["export { getPluginModule } from \"./getPluginModule\";\nexport * from './queries';\nexport * from './datasources';\n"],"names":["getPluginModule"],"mappings":"AAAA,SAASA,eAAe,QAAQ,oBAAoB;AACpD,cAAc,YAAY;AAC1B,cAAc,gBAAgB"}
