@@ -1,7 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
-import { DatasourceSelect, isVariableDatasource } from '@perses-dev/plugin-system';
-import { useEffect, useState } from 'react';
-import { DATASOURCE_KIND, DEFAULT_DATASOURCE } from './constants';
+import { DatasourceSelect, isVariableDatasource } from "@perses-dev/plugin-system";
+import { useEffect, useState } from "react";
+import { DATASOURCE_KIND, DEFAULT_DATASOURCE } from "../constants";
 export function HumanlogTimeSeriesQueryEditor(props) {
     const { onChange, value } = props;
     const { datasource } = value;
@@ -15,7 +15,7 @@ export function HumanlogTimeSeriesQueryEditor(props) {
             });
             return;
         }
-        throw new Error('Got unexpected non HumanlogTimeSeriesQuery datasource selection');
+        throw new Error("Got unexpected non HumanlogTimeSeriesQuery datasource selection");
     };
     const handleQueryBlur = (event)=>{
         const newQuery = event.target.value;

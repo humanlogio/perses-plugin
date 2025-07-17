@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../src/queries/humanlog-time-series-query/constants.ts"],"sourcesContent":["export const DATASOURCE_KIND = \"HumanlogDatasource\";\nexport const DEFAULT_DATASOURCE = { kind: DATASOURCE_KIND };\n"],"names":["DATASOURCE_KIND","DEFAULT_DATASOURCE","kind"],"mappings":"AAAA,OAAO,MAAMA,kBAAkB,qBAAqB;AACpD,OAAO,MAAMC,qBAAqB;IAAEC,MAAMF;AAAgB,EAAE"}

@@ -5,12 +5,14 @@ import {
 } from "@perses-dev/plugin-system";
 import {
   HumanlogTimeSeriesQuerySpec,
-  DatasourceQueryResponse,
+  DatasourceTimeSeriesQueryResponse,
 } from "./humanlog-time-series-query-types";
-import { DEFAULT_DATASOURCE } from "./constants";
+import { DEFAULT_DATASOURCE } from "../constants";
 import { HumanlogDatasourceClient } from "../../datasources";
 
-function buildTimeSeries(response?: DatasourceQueryResponse): TimeSeries[] {
+function buildTimeSeries(
+  response?: DatasourceTimeSeriesQueryResponse,
+): TimeSeries[] {
   if (!response) {
     return [];
   }

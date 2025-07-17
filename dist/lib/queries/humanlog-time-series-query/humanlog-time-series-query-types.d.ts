@@ -4,5 +4,5 @@ export interface HumanlogTimeSeriesQuerySpec {
     query: string;
     datasource?: DatasourceSelector;
 }
-export type DatasourceQueryResponse = HumanlogDatasourceResponse;
+export type DatasourceTimeSeriesQueryResponse = HumanlogDatasourceResponse;
 //# sourceMappingURL=humanlog-time-series-query-types.d.ts.map

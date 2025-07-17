@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-_export_star(require("./constants"), exports);
+_export_star(require("../constants"), exports);
 _export_star(require("./get-time-series-data"), exports);
 _export_star(require("./HumanlogTimeSeriesQuery"), exports);
 _export_star(require("./HumanlogTimeSeriesQueryEditor"), exports);

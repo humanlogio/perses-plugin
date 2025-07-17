@@ -11,7 +11,7 @@ Object.defineProperty(exports, "HumanlogTimeSeriesQueryEditor", {
 const _jsxruntime = require("react/jsx-runtime");
 const _pluginsystem = require("@perses-dev/plugin-system");
 const _react = require("react");
-const _constants = require("./constants");
+const _constants = require("../constants");
 function HumanlogTimeSeriesQueryEditor(props) {
     const { onChange, value } = props;
     const { datasource } = value;
@@ -25,7 +25,7 @@ function HumanlogTimeSeriesQueryEditor(props) {
             });
             return;
         }
-        throw new Error('Got unexpected non HumanlogTimeSeriesQuery datasource selection');
+        throw new Error("Got unexpected non HumanlogTimeSeriesQuery datasource selection");
     };
     const handleQueryBlur = (event)=>{
         const newQuery = event.target.value;

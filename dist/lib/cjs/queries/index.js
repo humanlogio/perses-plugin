@@ -3,6 +3,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 _export_star(require("./humanlog-time-series-query"), exports);
+_export_star(require("./humanlog-trace-query"), exports);
 function _export_star(from, to) {
     Object.keys(from).forEach(function(k) {
         if (k !== "default" && !Object.prototype.hasOwnProperty.call(to, k)) {

@@ -1,5 +1,5 @@
 import { replaceVariables } from "@perses-dev/plugin-system";
-import { DEFAULT_DATASOURCE } from "./constants";
+import { DEFAULT_DATASOURCE } from "../constants";
 function buildTimeSeries(response) {
     if (!response) {
         return [];

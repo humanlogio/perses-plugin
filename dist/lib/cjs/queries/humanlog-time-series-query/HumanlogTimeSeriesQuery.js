@@ -15,7 +15,7 @@ const HumanlogTimeSeriesQuery = {
     getTimeSeriesData: _gettimeseriesdata.getTimeSeriesData,
     OptionsEditorComponent: _HumanlogTimeSeriesQueryEditor.HumanlogTimeSeriesQueryEditor,
     createInitialOptions: ()=>({
-            query: ''
+            query: ""
         }),
     dependsOn: (spec)=>{
         const queryVariables = (0, _pluginsystem.parseVariables)(spec.query);

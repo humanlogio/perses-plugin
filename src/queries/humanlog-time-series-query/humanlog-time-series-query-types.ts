@@ -6,4 +6,4 @@ export interface HumanlogTimeSeriesQuerySpec {
   datasource?: DatasourceSelector;
 }
 
-export type DatasourceQueryResponse = HumanlogDatasourceResponse;
+export type DatasourceTimeSeriesQueryResponse = HumanlogDatasourceResponse;
