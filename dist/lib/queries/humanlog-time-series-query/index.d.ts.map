@@ -1,1 +1,1 @@
-{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../../src/queries/humanlog-time-series-query/index.ts"],"names":[],"mappings":"AAAA,cAAc,aAAa,CAAC;AAC5B,cAAc,wBAAwB,CAAC;AACvC,cAAc,2BAA2B,CAAC;AAC1C,cAAc,iCAAiC,CAAC;AAChD,cAAc,oCAAoC,CAAC"}
+{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../../src/queries/humanlog-time-series-query/index.ts"],"names":[],"mappings":"AAAA,cAAc,cAAc,CAAC;AAC7B,cAAc,wBAAwB,CAAC;AACvC,cAAc,2BAA2B,CAAC;AAC1C,cAAc,iCAAiC,CAAC;AAChD,cAAc,oCAAoC,CAAC"}

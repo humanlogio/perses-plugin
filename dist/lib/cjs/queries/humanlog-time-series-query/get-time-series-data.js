@@ -9,7 +9,7 @@ Object.defineProperty(exports, "getTimeSeriesData", {
     }
 });
 const _pluginsystem = require("@perses-dev/plugin-system");
-const _constants = require("./constants");
+const _constants = require("../constants");
 function buildTimeSeries(response) {
     if (!response) {
         return [];

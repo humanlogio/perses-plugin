@@ -17,7 +17,7 @@ function _interop_require_default(obj) {
 function getPluginModule() {
     const { name, version, perses } = _packagejson.default;
     return {
-        kind: 'PluginModule',
+        kind: "PluginModule",
         metadata: {
             name,
             version

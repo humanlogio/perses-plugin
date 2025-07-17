@@ -1,4 +1,4 @@
-import { PluginModuleResource } from '@perses-dev/plugin-system';
+import { PluginModuleResource } from "@perses-dev/plugin-system";
 /**
  * Returns the plugin module information from package.json
  */

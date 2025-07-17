@@ -4,6 +4,7 @@
   "scripts": {
     "dev": "rsbuild dev",
     "build": "npm run build-mf && concurrently \"npm:build:*\"",
+    "fmt": "prettier --write src/",
     "build-mf": "rsbuild build",
     "build:cjs": "swc ./src -d dist/lib/cjs --strip-leading-paths --config-file .cjs.swcrc",
     "build:esm": "swc ./src -d dist/lib --strip-leading-paths --config-file .swcrc",
@@ -19,6 +20,9 @@
     "api": "github:humanlogio/api#924808665ae6511ca537fb236f5d225220cf5909",
     "@connectrpc/connect-web": "^1.5.0",
     "@connectrpc/connect": "^1.5.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "3.3.3",
+    "eslint-plugin-prettier": "^5.2.1",
     "@module-federation/rsbuild-plugin": "^0.11.2",
     "@rsbuild/core": "^1.2.19",
     "@rsbuild/plugin-react": "^1.1.1",
