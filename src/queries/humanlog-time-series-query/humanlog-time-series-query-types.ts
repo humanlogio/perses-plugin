@@ -1,4 +1,4 @@
-import { DatasourceSelector } from "@perses-dev/core";
+import { DatasourceSelector, QueryDefinition } from "@perses-dev/core";
 import { HumanlogDatasourceResponse } from "../../datasources";
 
 export interface HumanlogTimeSeriesQuerySpec {

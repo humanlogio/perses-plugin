@@ -1,0 +1,1 @@
+{"version":3,"file":"themes.d.ts","sourceRoot":"","sources":["../../../../src/components/monaco-editor/themes.ts"],"names":[],"mappings":"AACA,OAAO,KAAK,MAAM,MAAM,wCAAwC,CAAC;AAGjE,oBAAY,SAAS;IACnB,KAAK,qBAAqB;IAC1B,IAAI,oBAAoB;CACzB;AACD,UAAU,KAAK;IACb,IAAI,EAAE,SAAS,CAAC;IAChB,IAAI,EAAE,MAAM,CAAC,MAAM,CAAC,oBAAoB,CAAC;CAC1C;AA+ED,eAAO,MAAM,MAAM,EAAE,KAAK,EAGzB,CAAC"}
