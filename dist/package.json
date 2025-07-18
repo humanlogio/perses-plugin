@@ -90,6 +90,15 @@
           },
           "name": "HumanlogTimeSeriesQuery"
         }
+      },
+      {
+        "kind": "TraceQuery",
+        "spec": {
+          "display": {
+            "name": "Humanlog Trace Query"
+          },
+          "name": "HumanlogTraceQuery"
+        }
       }
     ]
   }
