@@ -12,7 +12,6 @@ const _pluginsystem = require("@perses-dev/plugin-system");
 const _constants = require("../constants");
 const _types_pb = require("api/js/types/v1/types_pb");
 function buildTimeSeries(response) {
-    console.log("buildTimeSeries called with response:", response);
     if (!response?.data?.data?.shape.case || response.data.data.shape.case !== "freeForm") {
         return [];
     }
@@ -73,7 +72,6 @@ function buildTimeSeries(response) {
             values
         }
     ];
-    console.log("Returning result:", result);
     return result;
 }
 const getTimeSeriesData = async (spec, context)=>{

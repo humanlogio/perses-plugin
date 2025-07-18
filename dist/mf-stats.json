@@ -9,7 +9,7 @@
       "buildName": "@humanlogio/perses-plugin"
     },
     "remoteEntry": {
-      "name": "__mf/js/Humanlog.a3df88db.js",
+      "name": "__mf/js/Humanlog.bc92952e.js",
       "path": "",
       "type": "global"
     },
@@ -93,8 +93,8 @@
             "__mf/js/async/367.b55529c9.js",
             "__mf/js/async/9514.2ca3d52c.js",
             "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/5583.8f172929.js",
+            "__mf/js/async/6363.e442334b.js",
+            "__mf/js/async/5583.ca4efe6c.js",
             "__mf/js/async/8332.595deba2.js",
             "__mf/js/async/5853.acb2b0af.js",
             "__mf/js/async/3312.98a7d7e1.js",
@@ -103,7 +103,8 @@
             "__mf/js/async/2469.6a04640c.js",
             "__mf/js/async/757.0d4d1d71.js",
             "__mf/js/async/2803.f6c12e25.js",
-            "__mf/js/async/3948.c886a16c.js"
+            "__mf/js/async/3948.c886a16c.js",
+            "__mf/js/async/7421.1421c98c.js"
           ],
           "sync": [
             "__mf/js/async/4662.ef84502f.js"
@@ -113,6 +114,57 @@
           "async": [
             "__mf/css/async/6910.06dad2b8.css"
           ],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^11.11.3",
+      "shareScope": "default",
+      "name": "@emotion/react",
+      "version": "^11.11.3",
+      "eager": false,
+      "id": "Humanlog:@emotion/react",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js"
+          ],
+          "sync": [
+            "__mf/js/async/5583.ca4efe6c.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      },
+      "usedIn": []
+    },
+    {
+      "singleton": true,
+      "requiredVersion": "^11.14.1",
+      "shareScope": "default",
+      "name": "@emotion/styled",
+      "version": "^11.3.0",
+      "eager": false,
+      "id": "Humanlog:@emotion/styled",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/5583.ca4efe6c.js"
+          ],
+          "sync": [
+            "__mf/js/async/6363.e442334b.js",
+            "__mf/js/async/7148.76177158.js",
+            "__mf/js/async/7421.1421c98c.js"
+          ]
+        },
+        "css": {
+          "async": [],
           "sync": []
         }
       },
@@ -177,8 +229,8 @@
           "async": [
             "__mf/js/async/1512.b2bed874.js",
             "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/5583.8f172929.js",
+            "__mf/js/async/6363.e442334b.js",
+            "__mf/js/async/5583.ca4efe6c.js",
             "__mf/js/async/7323.0a98c720.js",
             "__mf/js/async/367.b55529c9.js",
             "__mf/js/async/9514.2ca3d52c.js"
@@ -209,30 +261,6 @@
           ],
           "sync": [
             "__mf/js/async/9514.2ca3d52c.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
-      "requiredVersion": "^11.11.3",
-      "shareScope": "default",
-      "name": "@emotion/react",
-      "version": "^11.11.3",
-      "eager": false,
-      "id": "Humanlog:@emotion/react",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js"
-          ],
-          "sync": [
-            "__mf/js/async/5583.8f172929.js"
           ]
         },
         "css": {
@@ -313,8 +341,8 @@
             "__mf/js/async/7323.0a98c720.js",
             "__mf/js/async/367.b55529c9.js",
             "__mf/js/async/9514.2ca3d52c.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/5583.8f172929.js",
+            "__mf/js/async/6363.e442334b.js",
+            "__mf/js/async/5583.ca4efe6c.js",
             "__mf/js/async/4662.ef84502f.js",
             "__mf/js/async/9456.e7f8f8f9.js",
             "__mf/js/async/8332.595deba2.js",
@@ -324,6 +352,7 @@
             "__mf/js/async/2469.6a04640c.js",
             "__mf/js/async/2803.f6c12e25.js",
             "__mf/js/async/3948.c886a16c.js",
+            "__mf/js/async/7421.1421c98c.js",
             "__mf/js/async/757.0d4d1d71.js"
           ],
           "sync": [
@@ -363,8 +392,8 @@
             "__mf/js/async/367.b55529c9.js",
             "__mf/js/async/9514.2ca3d52c.js",
             "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/5583.8f172929.js",
+            "__mf/js/async/6363.e442334b.js",
+            "__mf/js/async/5583.ca4efe6c.js",
             "__mf/js/async/8332.595deba2.js",
             "__mf/js/async/4662.ef84502f.js",
             "__mf/js/async/5853.acb2b0af.js",
@@ -373,6 +402,7 @@
             "__mf/js/async/6903.9206bee1.js",
             "__mf/js/async/2803.f6c12e25.js",
             "__mf/js/async/3948.c886a16c.js",
+            "__mf/js/async/7421.1421c98c.js",
             "__mf/js/async/757.0d4d1d71.js"
           ],
           "sync": [
@@ -437,32 +467,6 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^11.14.1",
-      "shareScope": "default",
-      "name": "@emotion/styled",
-      "version": "^11.6.0",
-      "eager": false,
-      "id": "Humanlog:@emotion/styled",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/5583.8f172929.js"
-          ],
-          "sync": [
-            "__mf/js/async/6363.02e714b1.js",
-            "__mf/js/async/7421.1421c98c.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      },
-      "usedIn": []
-    },
-    {
-      "singleton": true,
       "requiredVersion": "^3.10.0",
       "shareScope": "default",
       "name": "@hookform/resolvers",
@@ -506,9 +510,13 @@
           "async": [
             "__mf/js/async/1512.b2bed874.js",
             "__mf/js/async/6303.3a88adce.js",
+            "__mf/js/async/1630.c2859646.js",
+            "__mf/js/async/2500.0b63ab8d.js",
+            "__mf/js/async/3085.266fa8d8.js",
+            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.813c0665.js",
             "__mf/js/async/2051.eb134323.js",
             "__mf/js/async/8047.e1258d40.js",
-            "__mf/js/async/3274.246695ef.js",
+            "__mf/js/async/510.e08e0b4c.js",
             "__mf/js/async/3843.a84d4e0f.js",
             "__mf/js/async/4662.ef84502f.js",
             "__mf/js/async/9652.4f4104ba.js",
@@ -521,8 +529,8 @@
             "__mf/js/async/367.b55529c9.js",
             "__mf/js/async/9514.2ca3d52c.js",
             "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/5583.8f172929.js",
+            "__mf/js/async/6363.e442334b.js",
+            "__mf/js/async/5583.ca4efe6c.js",
             "__mf/js/async/8332.595deba2.js",
             "__mf/js/async/5853.acb2b0af.js",
             "__mf/js/async/3312.98a7d7e1.js",
@@ -531,12 +539,14 @@
             "__mf/js/async/2469.6a04640c.js",
             "__mf/js/async/2803.f6c12e25.js",
             "__mf/js/async/3948.c886a16c.js",
+            "__mf/js/async/7421.1421c98c.js",
             "__mf/js/async/757.0d4d1d71.js"
           ]
         },
         "css": {
           "sync": [],
           "async": [
+            "__mf/css/async/3085.8d795043.css",
             "__mf/css/async/6910.06dad2b8.css"
           ]
         }
@@ -551,15 +561,19 @@
       "assets": {
         "js": {
           "sync": [
+            "__mf/js/async/1630.c2859646.js",
             "__mf/js/async/2500.0b63ab8d.js",
-            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.43f2ecab.js"
+            "__mf/js/async/3085.266fa8d8.js",
+            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.813c0665.js"
           ],
           "async": [
             "__mf/js/async/1512.b2bed874.js",
+            "__mf/js/async/6363.e442334b.js",
+            "__mf/js/async/5583.ca4efe6c.js",
             "__mf/js/async/6303.3a88adce.js",
             "__mf/js/async/2051.eb134323.js",
             "__mf/js/async/8047.e1258d40.js",
-            "__mf/js/async/3274.246695ef.js",
+            "__mf/js/async/510.e08e0b4c.js",
             "__mf/js/async/3843.a84d4e0f.js",
             "__mf/js/async/4662.ef84502f.js",
             "__mf/js/async/9652.4f4104ba.js",
@@ -572,8 +586,6 @@
             "__mf/js/async/367.b55529c9.js",
             "__mf/js/async/9514.2ca3d52c.js",
             "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/5583.8f172929.js",
             "__mf/js/async/8332.595deba2.js",
             "__mf/js/async/5853.acb2b0af.js",
             "__mf/js/async/3312.98a7d7e1.js",
@@ -582,11 +594,19 @@
             "__mf/js/async/2469.6a04640c.js",
             "__mf/js/async/2803.f6c12e25.js",
             "__mf/js/async/3948.c886a16c.js",
-            "__mf/js/async/757.0d4d1d71.js"
+            "__mf/js/async/7421.1421c98c.js",
+            "__mf/js/async/757.0d4d1d71.js",
+            "__mf/js/async/2861.29bd8028.js",
+            "__mf/js/async/7289.51776124.js",
+            "__mf/js/async/5671.f44578ec.js",
+            "__mf/js/async/60.c9ca6fe2.js",
+            "__mf/js/async/3178.d52a0493.js"
           ]
         },
         "css": {
-          "sync": [],
+          "sync": [
+            "__mf/css/async/3085.8d795043.css"
+          ],
           "async": [
             "__mf/css/async/6910.06dad2b8.css"
           ]

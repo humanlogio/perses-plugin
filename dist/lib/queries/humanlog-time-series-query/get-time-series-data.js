@@ -2,7 +2,6 @@ import { replaceVariables } from "@perses-dev/plugin-system";
 import { DEFAULT_DATASOURCE } from "../constants";
 import { ScalarType } from "api/js/types/v1/types_pb";
 function buildTimeSeries(response) {
-    console.log("buildTimeSeries called with response:", response);
     if (!response?.data?.data?.shape.case || response.data.data.shape.case !== "freeForm") {
         return [];
     }
@@ -63,7 +62,6 @@ function buildTimeSeries(response) {
             values
         }
     ];
-    console.log("Returning result:", result);
     return result;
 }
 export const getTimeSeriesData = async (spec, context)=>{

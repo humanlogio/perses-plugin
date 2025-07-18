@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/components/monaco-editor/globals.ts"],"sourcesContent":["export const LANGUAGE_ID = \"humanlogql\";\n"],"names":["LANGUAGE_ID"],"mappings":"AAAA,OAAO,MAAMA,cAAc,aAAa"}
