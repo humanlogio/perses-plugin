@@ -1,0 +1,12 @@
+# perses-plugin/.npmignore
+node_modules/
+.git/
+.github/
+tests/
+*.test.*
+*.spec.*
+coverage/
+.vscode/
+.idea/
+*.log
+.DS_Store

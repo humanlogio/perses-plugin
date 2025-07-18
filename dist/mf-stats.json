@@ -5,11 +5,11 @@
     "name": "Humanlog",
     "type": "app",
     "buildInfo": {
-      "buildVersion": "0.1.0",
+      "buildVersion": "0.1.1",
       "buildName": "@humanlogio/perses-plugin"
     },
     "remoteEntry": {
-      "name": "__mf/js/Humanlog.8242e748.js",
+      "name": "__mf/js/Humanlog.a3df88db.js",
       "path": "",
       "type": "global"
     },
@@ -499,8 +499,9 @@
       "assets": {
         "js": {
           "sync": [
-            "__mf/js/async/5833.3a21b9d7.js",
-            "__mf/js/async/__federation_expose_HumanlogDatasource.7d374443.js"
+            "__mf/js/async/2500.0b63ab8d.js",
+            "__mf/js/async/3045.6aeddb88.js",
+            "__mf/js/async/__federation_expose_HumanlogDatasource.8ea58d20.js"
           ],
           "async": [
             "__mf/js/async/1512.b2bed874.js",
@@ -550,7 +551,8 @@
       "assets": {
         "js": {
           "sync": [
-            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.2c48f348.js"
+            "__mf/js/async/2500.0b63ab8d.js",
+            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.43f2ecab.js"
           ],
           "async": [
             "__mf/js/async/1512.b2bed874.js",
