@@ -1,4 +1,7 @@
-import { ModuleFederationOptions, pluginModuleFederation } from "@module-federation/rsbuild-plugin";
+import {
+  ModuleFederationOptions,
+  pluginModuleFederation,
+} from "@module-federation/rsbuild-plugin";
 import { defineConfig } from "@rsbuild/core";
 import { pluginReact } from "@rsbuild/plugin-react";
 
@@ -6,8 +9,8 @@ export const assetPrefix = "/plugins/Humanlog/";
 
 // Expose the components that will be used in the UI, either Perses UI or embedded.
 const exposedModules: ModuleFederationOptions["exposes"] = [
-  { "./HumanlogDatasource" : "./src/datasources/humanlog-datasource" },
-  { "./HumanlogTimeSeriesQuery" : "./src/queries/humanlog-time-series-query" },
+  { "./HumanlogDatasource": "./src/datasources/humanlog-datasource" },
+  { "./HumanlogTimeSeriesQuery": "./src/queries/humanlog-time-series-query" },
 ];
 
 export default defineConfig({
@@ -40,6 +43,7 @@ export default defineConfig({
         "date-fns": { singleton: true },
         "date-fns-tz": { singleton: true },
         lodash: { singleton: true },
+        "@perses-dev/core": { singleton: true },
         "@perses-dev/components": { singleton: true },
         "@perses-dev/plugin-system": { singleton: true },
         "@perses-dev/explore": { singleton: true },
