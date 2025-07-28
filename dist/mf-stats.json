@@ -9,7 +9,7 @@
       "buildName": "@humanlogio/perses-plugin"
     },
     "remoteEntry": {
-      "name": "__mf/js/Humanlog.d597ace9.js",
+      "name": "__mf/js/Humanlog.6159e3bc.js",
       "path": "",
       "type": "global"
     },
@@ -88,18 +88,18 @@
             "__mf/js/async/634.fe663cf0.js",
             "__mf/js/async/6929.489ea1db.js",
             "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.b53409c3.js",
-            "__mf/js/async/8780.7d56906b.js",
-            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/4853.8c578a33.js",
+            "__mf/js/async/8780.62c23b4f.js",
+            "__mf/js/async/7323.077389a6.js",
             "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.2ca3d52c.js",
-            "__mf/js/async/9217.df2eff87.js",
+            "__mf/js/async/9514.970ddad3.js",
+            "__mf/js/async/9217.475623cc.js",
             "__mf/js/async/9456.e7f8f8f9.js",
             "__mf/js/async/6363.e442334b.js",
             "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/8332.595deba2.js",
-            "__mf/js/async/5853.acb2b0af.js",
-            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/8332.93555bba.js",
+            "__mf/js/async/5853.0934981c.js",
+            "__mf/js/async/3312.1771220a.js",
             "__mf/js/async/3539.da7d64c3.js",
             "__mf/js/async/6903.9206bee1.js",
             "__mf/js/async/2469.67aea8fb.js",
@@ -109,7 +109,7 @@
             "__mf/js/async/7421.1421c98c.js"
           ],
           "sync": [
-            "__mf/js/async/4662.6bafe922.js"
+            "__mf/js/async/4662.4e493d4b.js"
           ]
         },
         "css": {
@@ -186,10 +186,10 @@
             "__mf/js/async/1512.b2bed874.js",
             "__mf/js/async/634.fe663cf0.js",
             "__mf/js/async/6929.489ea1db.js",
-            "__mf/js/async/7323.0a98c720.js"
+            "__mf/js/async/7323.077389a6.js"
           ],
           "sync": [
-            "__mf/js/async/9217.df2eff87.js"
+            "__mf/js/async/9217.475623cc.js"
           ]
         },
         "css": {
@@ -213,7 +213,7 @@
             "__mf/js/async/1512.b2bed874.js"
           ],
           "sync": [
-            "__mf/js/async/8332.595deba2.js"
+            "__mf/js/async/8332.93555bba.js"
           ]
         },
         "css": {
@@ -235,7 +235,7 @@
         "js": {
           "async": [],
           "sync": [
-            "__mf/js/async/7323.0a98c720.js"
+            "__mf/js/async/7323.077389a6.js"
           ]
         },
         "css": {
@@ -258,15 +258,15 @@
           "async": [
             "__mf/js/async/1512.b2bed874.js",
             "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/9217.df2eff87.js",
-            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/9217.475623cc.js",
+            "__mf/js/async/7323.077389a6.js",
             "__mf/js/async/6363.e442334b.js",
             "__mf/js/async/5583.ca4efe6c.js",
             "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.2ca3d52c.js"
+            "__mf/js/async/9514.970ddad3.js"
           ],
           "sync": [
-            "__mf/js/async/8780.7d56906b.js"
+            "__mf/js/async/8780.62c23b4f.js"
           ]
         },
         "css": {
@@ -278,7 +278,7 @@
     },
     {
       "singleton": true,
-      "requiredVersion": "^7.60.0",
+      "requiredVersion": "^7.61.1",
       "shareScope": "default",
       "name": "react-hook-form",
       "version": "7.46.1",
@@ -290,7 +290,7 @@
             "__mf/js/async/1512.b2bed874.js"
           ],
           "sync": [
-            "__mf/js/async/9514.2ca3d52c.js"
+            "__mf/js/async/9514.970ddad3.js"
           ]
         },
         "css": {
@@ -315,7 +315,7 @@
             "__mf/js/async/7987.563bba5e.js"
           ],
           "sync": [
-            "__mf/js/async/5853.acb2b0af.js"
+            "__mf/js/async/5853.0934981c.js"
           ]
         },
         "css": {
@@ -337,7 +337,7 @@
         "js": {
           "async": [],
           "sync": [
-            "__mf/js/async/3312.98a7d7e1.js"
+            "__mf/js/async/3312.1771220a.js"
           ]
         },
         "css": {
@@ -359,26 +359,26 @@
         "js": {
           "async": [
             "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/6293.e6336457.js",
+            "__mf/js/async/6293.52c165c6.js",
             "__mf/js/async/2051.eb134323.js",
             "__mf/js/async/9652.4f4104ba.js",
             "__mf/js/async/634.fe663cf0.js",
             "__mf/js/async/6929.489ea1db.js",
             "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.b53409c3.js",
-            "__mf/js/async/8780.7d56906b.js",
+            "__mf/js/async/4853.8c578a33.js",
+            "__mf/js/async/8780.62c23b4f.js",
             "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/7323.077389a6.js",
             "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.2ca3d52c.js",
-            "__mf/js/async/9217.df2eff87.js",
+            "__mf/js/async/9514.970ddad3.js",
+            "__mf/js/async/9217.475623cc.js",
             "__mf/js/async/6363.e442334b.js",
             "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/4662.6bafe922.js",
+            "__mf/js/async/4662.4e493d4b.js",
             "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/8332.595deba2.js",
-            "__mf/js/async/5853.acb2b0af.js",
-            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/8332.93555bba.js",
+            "__mf/js/async/5853.0934981c.js",
+            "__mf/js/async/3312.1771220a.js",
             "__mf/js/async/6903.9206bee1.js",
             "__mf/js/async/2469.67aea8fb.js",
             "__mf/js/async/2803.f6c12e25.js",
@@ -412,24 +412,24 @@
           "async": [
             "__mf/js/async/1512.b2bed874.js",
             "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/6293.e6336457.js",
+            "__mf/js/async/6293.52c165c6.js",
             "__mf/js/async/2051.eb134323.js",
             "__mf/js/async/634.fe663cf0.js",
             "__mf/js/async/6929.489ea1db.js",
             "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.b53409c3.js",
-            "__mf/js/async/8780.7d56906b.js",
-            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/4853.8c578a33.js",
+            "__mf/js/async/8780.62c23b4f.js",
+            "__mf/js/async/7323.077389a6.js",
             "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.2ca3d52c.js",
-            "__mf/js/async/9217.df2eff87.js",
+            "__mf/js/async/9514.970ddad3.js",
+            "__mf/js/async/9217.475623cc.js",
             "__mf/js/async/9456.e7f8f8f9.js",
             "__mf/js/async/6363.e442334b.js",
             "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/8332.595deba2.js",
-            "__mf/js/async/4662.6bafe922.js",
-            "__mf/js/async/5853.acb2b0af.js",
-            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/8332.93555bba.js",
+            "__mf/js/async/4662.4e493d4b.js",
+            "__mf/js/async/5853.0934981c.js",
+            "__mf/js/async/3312.1771220a.js",
             "__mf/js/async/3539.da7d64c3.js",
             "__mf/js/async/6903.9206bee1.js",
             "__mf/js/async/2803.f6c12e25.js",
@@ -462,7 +462,7 @@
         "js": {
           "async": [
             "__mf/js/async/634.fe663cf0.js",
-            "__mf/js/async/7323.0a98c720.js"
+            "__mf/js/async/7323.077389a6.js"
           ],
           "sync": [
             "__mf/js/async/367.b55529c9.js"
@@ -508,7 +508,7 @@
       "assets": {
         "js": {
           "async": [
-            "__mf/js/async/9514.2ca3d52c.js",
+            "__mf/js/async/9514.970ddad3.js",
             "__mf/js/async/1512.b2bed874.js"
           ],
           "sync": [
@@ -536,37 +536,37 @@
         "js": {
           "sync": [
             "__mf/js/async/2500.0b63ab8d.js",
-            "__mf/js/async/3045.6aeddb88.js",
+            "__mf/js/async/3045.07b26ce9.js",
             "__mf/js/async/__federation_expose_HumanlogDatasource.3961a64a.js"
           ],
           "async": [
             "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/6293.e6336457.js",
+            "__mf/js/async/6293.52c165c6.js",
             "__mf/js/async/1630.c2859646.js",
             "__mf/js/async/2500.0b63ab8d.js",
-            "__mf/js/async/3085.266fa8d8.js",
+            "__mf/js/async/3085.07eb7966.js",
             "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.140eb573.js",
             "__mf/js/async/2051.eb134323.js",
-            "__mf/js/async/510.e08e0b4c.js",
+            "__mf/js/async/510.00869de1.js",
             "__mf/js/async/8681.5057b421.js",
-            "__mf/js/async/4662.6bafe922.js",
+            "__mf/js/async/4662.4e493d4b.js",
             "__mf/js/async/9652.4f4104ba.js",
             "__mf/js/async/634.fe663cf0.js",
             "__mf/js/async/6929.489ea1db.js",
             "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.b53409c3.js",
-            "__mf/js/async/8780.7d56906b.js",
+            "__mf/js/async/4853.8c578a33.js",
+            "__mf/js/async/8780.62c23b4f.js",
             "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/7323.077389a6.js",
             "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.2ca3d52c.js",
-            "__mf/js/async/9217.df2eff87.js",
+            "__mf/js/async/9514.970ddad3.js",
+            "__mf/js/async/9217.475623cc.js",
             "__mf/js/async/9456.e7f8f8f9.js",
             "__mf/js/async/6363.e442334b.js",
             "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/8332.595deba2.js",
-            "__mf/js/async/5853.acb2b0af.js",
-            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/8332.93555bba.js",
+            "__mf/js/async/5853.0934981c.js",
+            "__mf/js/async/3312.1771220a.js",
             "__mf/js/async/3539.da7d64c3.js",
             "__mf/js/async/6903.9206bee1.js",
             "__mf/js/async/2469.67aea8fb.js",
@@ -596,33 +596,33 @@
           "sync": [
             "__mf/js/async/1630.c2859646.js",
             "__mf/js/async/2500.0b63ab8d.js",
-            "__mf/js/async/3085.266fa8d8.js",
+            "__mf/js/async/3085.07eb7966.js",
             "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.140eb573.js"
           ],
           "async": [
             "__mf/js/async/1512.b2bed874.js",
             "__mf/js/async/6363.e442334b.js",
             "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/6293.e6336457.js",
+            "__mf/js/async/6293.52c165c6.js",
             "__mf/js/async/2051.eb134323.js",
-            "__mf/js/async/510.e08e0b4c.js",
+            "__mf/js/async/510.00869de1.js",
             "__mf/js/async/8681.5057b421.js",
-            "__mf/js/async/4662.6bafe922.js",
+            "__mf/js/async/4662.4e493d4b.js",
             "__mf/js/async/9652.4f4104ba.js",
             "__mf/js/async/634.fe663cf0.js",
             "__mf/js/async/6929.489ea1db.js",
             "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.b53409c3.js",
-            "__mf/js/async/8780.7d56906b.js",
+            "__mf/js/async/4853.8c578a33.js",
+            "__mf/js/async/8780.62c23b4f.js",
             "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/7323.0a98c720.js",
+            "__mf/js/async/7323.077389a6.js",
             "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.2ca3d52c.js",
-            "__mf/js/async/9217.df2eff87.js",
+            "__mf/js/async/9514.970ddad3.js",
+            "__mf/js/async/9217.475623cc.js",
             "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/8332.595deba2.js",
-            "__mf/js/async/5853.acb2b0af.js",
-            "__mf/js/async/3312.98a7d7e1.js",
+            "__mf/js/async/8332.93555bba.js",
+            "__mf/js/async/5853.0934981c.js",
+            "__mf/js/async/3312.1771220a.js",
             "__mf/js/async/3539.da7d64c3.js",
             "__mf/js/async/6903.9206bee1.js",
             "__mf/js/async/2469.67aea8fb.js",

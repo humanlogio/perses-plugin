@@ -102,7 +102,7 @@
     ]
   },
   "dependencies": {
-    "api": "github:humanlogio/api#924808665ae6511ca537fb236f5d225220cf5909",
+    "api": "github:humanlogio/api#main",
     "@monaco-editor/react": "^4.7.0"
   }
 }
