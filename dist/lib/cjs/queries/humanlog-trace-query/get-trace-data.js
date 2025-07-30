@@ -67,16 +67,49 @@ function buildTrace(response) {
         };
     };
     const hl2otlpEvent = (res)=>{
-        throw new Error("todo");
+        return {
+            timeUnixNano: timestampToUnixNanoString(res.timestamp?.toDate() || new Date()),
+            name: res.name || "",
+            attributes: res.kvs.map(hl2otlpKeyValue)
+        };
     };
     const hl2otlpStatus = (res)=>{
-        throw new Error("todo");
+        if (!res) {
+            return {
+                code: "STATUS_CODE_UNSET",
+                message: ""
+            };
+        }
+        // Convert HumanLog status code to OTLP status code
+        let statusCode;
+        switch(res.code){
+            case 0:
+                statusCode = "STATUS_CODE_UNSET";
+                break;
+            case 1:
+                statusCode = "STATUS_CODE_OK";
+                break;
+            case 2:
+                statusCode = "STATUS_CODE_ERROR";
+                break;
+            default:
+                statusCode = "STATUS_CODE_UNSET";
+        }
+        return {
+            code: statusCode,
+            message: res.message || ""
+        };
     };
     const timestampToUnixNanoString = (ts)=>{
-        throw new Error("todo");
+        return (ts.getTime() * 1000000).toString();
     };
     const addDurationToDate = (ts, dur)=>{
-        throw new Error("todo");
+        // Extract seconds and nanoseconds from Duration
+        const seconds = Number(dur.seconds || 0);
+        const nanos = dur.nanos || 0;
+        // Convert duration to milliseconds and add to timestamp
+        const durationMs = seconds * 1000 + nanos / 1000000;
+        return new Date(ts.getTime() + durationMs);
     };
     const hl2otlpSpan = (res)=>{
         const start = res.time.toDate();
@@ -90,7 +123,7 @@ function buildTrace(response) {
             startTimeUnixNano: timestampToUnixNanoString(start),
             endTimeUnixNano: timestampToUnixNanoString(end),
             attributes: res.attributes.map(hl2otlpKeyValue),
-            events: res.events.map(hl2otlpEvent),
+            events: res.events?.map(hl2otlpEvent) || [],
             status: hl2otlpStatus(res.status)
         };
     };
@@ -135,7 +168,48 @@ function buildSearchResult(response) {
     if (!response) {
         return [];
     }
-    return [];
+    let spans;
+    switch(response.data.data?.shape.case){
+        case "spans":
+            spans = response.data.data?.shape.value;
+            break;
+        default:
+            return [];
+    }
+    // Group spans by traceId and find the earliest start time and service name for each trace
+    const traceMap = new Map();
+    spans.spans.forEach((span)=>{
+        const traceId = span.traceId;
+        const startTime = span.time?.toDate() || new Date();
+        const duration = span.duration ? Number(span.duration.seconds || 0) * 1000 + (span.duration.nanos || 0) / 1000000 : 0;
+        const existing = traceMap.get(traceId);
+        if (!existing || startTime < existing.startTime) {
+            traceMap.set(traceId, {
+                traceId,
+                spanCount: existing ? existing.spanCount + 1 : 1,
+                serviceName: span.serviceName || "unknown",
+                startTime,
+                duration: existing ? Math.max(existing.duration, duration) : duration
+            });
+        } else {
+            existing.spanCount += 1;
+            existing.duration = Math.max(existing.duration, duration);
+        }
+    });
+    return Array.from(traceMap.values()).map((trace)=>({
+            traceId: trace.traceId,
+            rootServiceName: trace.serviceName,
+            rootTraceName: trace.serviceName,
+            startTimeUnixMs: trace.startTime.getTime(),
+            durationMs: trace.duration,
+            spanCount: trace.spanCount,
+            serviceStats: {
+                [trace.serviceName]: {
+                    spanCount: trace.spanCount,
+                    errorCount: 0
+                }
+            }
+        }));
 }
 const getTraceData = async (spec, context)=>{
     // return empty data if the query is empty
