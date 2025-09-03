@@ -1,5 +1,7 @@
 import { replaceVariables } from "@perses-dev/plugin-system";
 import { DEFAULT_DATASOURCE } from "../constants";
+import { protobufToDate } from "../../utils/time";
+import { spanIdToString, traceIdToString } from "../../utils/id-factories";
 function buildTrace(response) {
     if (!response) {
         return undefined;
@@ -58,7 +60,7 @@ function buildTrace(response) {
     };
     const hl2otlpEvent = (res)=>{
         return {
-            timeUnixNano: timestampToUnixNanoString(res.timestamp?.toDate() || new Date()),
+            timeUnixNano: timestampToUnixNanoString(protobufToDate(res.timestamp) || new Date()),
             name: res.name || "",
             attributes: res.kvs.map(hl2otlpKeyValue)
         };
@@ -102,12 +104,16 @@ function buildTrace(response) {
         return new Date(ts.getTime() + durationMs);
     };
     const hl2otlpSpan = (res)=>{
-        const start = res.time.toDate();
+        res.time?.nanos;
+        const start = protobufToDate(res.time);
         const end = addDurationToDate(start, res.duration);
+        const traceId = traceIdToString(res.traceId);
+        const spanId = spanIdToString(res.spanId);
+        const parentSpanId = spanIdToString(res.parentSpanId);
         return {
-            traceId: res.traceId,
-            spanId: res.spanId,
-            parentSpanId: res.parentSpanId,
+            traceId,
+            spanId,
+            parentSpanId,
             name: res.name,
             kind: res.kind.toString(),
             startTimeUnixNano: timestampToUnixNanoString(start),
@@ -169,8 +175,8 @@ function buildSearchResult(response) {
     // Group spans by traceId and find the earliest start time and service name for each trace
     const traceMap = new Map();
     spans.spans.forEach((span)=>{
-        const traceId = span.traceId;
-        const startTime = span.time?.toDate() || new Date();
+        const traceId = traceIdToString(span.traceId);
+        const startTime = protobufToDate(span.time) || new Date();
         const duration = span.duration ? Number(span.duration.seconds || 0) * 1000 + (span.duration.nanos || 0) / 1000000 : 0;
         const existing = traceMap.get(traceId);
         if (!existing || startTime < existing.startTime) {

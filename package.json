@@ -39,9 +39,10 @@
     "react-router-dom": "^6.26.0"
   },
   "peerDependencies": {
-    "api": "github:humanlogio/api#main",
-    "@connectrpc/connect": "^1.5.0",
-    "@connectrpc/connect-web": "^1.5.0",
+    "api": "github:humanlogio/api#11da8df",
+    "@bufbuild/protobuf": "^2.7.0",
+    "@connectrpc/connect": "^2.1.0",
+    "@connectrpc/connect-web": "^2.1.0",
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
     "@hookform/resolvers": "^3.2.0",
@@ -50,7 +51,6 @@
     "@perses-dev/dashboards": "^0.51.1",
     "@perses-dev/explore": "^0.51.1",
     "@perses-dev/plugin-system": "^0.51.1",
-    "@tanstack/react-query": "^4.39.1",
     "date-fns": "^4.1.0",
     "date-fns-tz": "^3.2.0",
     "echarts": "5.5.0",
@@ -104,5 +104,8 @@
   },
   "dependencies": {
     "@monaco-editor/react": "^4.7.0"
+  },
+  "overrides": {
+    "@tanstack/react-query": "^5.81.5"
   }
 }

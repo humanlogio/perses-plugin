@@ -1,7 +1,7 @@
 import { HumanlogDatasourceEditor } from "./HumanlogDatasourceEditor";
 import { createConnectTransport } from "@connectrpc/connect-web";
-import { QueryService } from "api/js/svc/query/v1/service_connect";
 import { createClient as createConnectClient } from "@connectrpc/connect";
+import { QueryService } from "api/js/svc/query/v1/service_pb";
 const createClient = (spec, options)=>{
     const { directUrl } = spec;
     const datasourceUrl = directUrl;

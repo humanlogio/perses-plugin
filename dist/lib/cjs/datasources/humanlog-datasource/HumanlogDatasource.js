@@ -10,8 +10,8 @@ Object.defineProperty(exports, "HumanlogDatasource", {
 });
 const _HumanlogDatasourceEditor = require("./HumanlogDatasourceEditor");
 const _connectweb = require("@connectrpc/connect-web");
-const _service_connect = require("api/js/svc/query/v1/service_connect");
 const _connect = require("@connectrpc/connect");
+const _service_pb = require("api/js/svc/query/v1/service_pb");
 const createClient = (spec, options)=>{
     const { directUrl } = spec;
     const datasourceUrl = directUrl;
@@ -21,7 +21,7 @@ const createClient = (spec, options)=>{
     const transport = (0, _connectweb.createConnectTransport)({
         baseUrl: datasourceUrl
     });
-    const queryClient = (0, _connect.createClient)(_service_connect.QueryService, transport);
+    const queryClient = (0, _connect.createClient)(_service_pb.QueryService, transport);
     return {
         options: {
             datasourceUrl

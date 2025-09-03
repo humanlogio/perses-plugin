@@ -1,6 +1,7 @@
 import { replaceVariables } from "@perses-dev/plugin-system";
 import { DEFAULT_DATASOURCE } from "../constants";
 import { ScalarType } from "api/js/types/v1/types_pb";
+import { protobufToDate } from "../../utils/time";
 function buildTimeSeries(response) {
     if (!response?.data?.data?.shape.case || response.data.data.shape.case !== "freeForm") {
         return [];
@@ -30,7 +31,7 @@ function buildTimeSeries(response) {
         // Extract timestamp
         let timestamp;
         if (timeVal.kind.case === "ts") {
-            timestamp = timeVal.kind.value.toDate().getTime();
+            timestamp = protobufToDate(timeVal.kind.value).getTime();
         } else {
             continue; // Skip if not timestamp
         }

@@ -11,6 +11,7 @@ import { DEFAULT_DATASOURCE } from "../constants";
 import { HumanlogDatasourceClient } from "../../datasources";
 import { Table, TableType_Column } from "api/js/types/v1/types_pb";
 import { ScalarType } from "api/js/types/v1/types_pb";
+import { protobufToDate } from "../../utils/time";
 
 function buildTimeSeries(
   response?: DatasourceTimeSeriesQueryResponse,
@@ -69,7 +70,7 @@ function buildTimeSeries(
     // Extract timestamp
     let timestamp: number;
     if (timeVal.kind.case === "ts") {
-      timestamp = timeVal.kind.value.toDate().getTime();
+      timestamp = protobufToDate(timeVal.kind.value).getTime();
     } else {
       continue; // Skip if not timestamp
     }

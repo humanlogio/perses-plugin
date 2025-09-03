@@ -5,7 +5,6 @@ import {
   DatasourceTraceQueryResponse,
 } from "./humanlog-trace-query-types";
 import { DEFAULT_DATASOURCE } from "../constants";
-import { Duration, Timestamp } from "@bufbuild/protobuf";
 import { HumanlogDatasourceClient } from "../../datasources";
 import {
   Event,
@@ -29,6 +28,9 @@ import {
   InstrumentationScope,
   KeyValue,
 } from "@perses-dev/core/dist/model/otlp/common/v1/common";
+import { Duration } from "@bufbuild/protobuf/wkt";
+import { protobufToDate } from "../../utils/time";
+import { spanIdToString, traceIdToString } from "../../utils/id-factories";
 
 function buildTrace(
   response?: DatasourceTraceQueryResponse,
@@ -78,7 +80,7 @@ function buildTrace(
   const hl2otlpEvent = (res: HLEvent): Event => {
     return {
       timeUnixNano: timestampToUnixNanoString(
-        res.timestamp?.toDate() || new Date(),
+        protobufToDate(res.timestamp!) || new Date(),
       ),
       name: res.name || "",
       attributes: res.kvs.map(hl2otlpKeyValue),
@@ -132,12 +134,16 @@ function buildTrace(
   };
 
   const hl2otlpSpan = (res: HLSpan): Span => {
-    const start = res.time!.toDate();
+    res.time?.nanos;
+    const start = protobufToDate(res.time!);
     const end = addDurationToDate(start, res.duration!);
+    const traceId = traceIdToString(res.traceId);
+    const spanId = spanIdToString(res.spanId);
+    const parentSpanId = spanIdToString(res.parentSpanId);
     return {
-      traceId: res.traceId,
-      spanId: res.spanId,
-      parentSpanId: res.parentSpanId,
+      traceId,
+      spanId,
+      parentSpanId,
       name: res.name,
       kind: res.kind.toString(),
       startTimeUnixNano: timestampToUnixNanoString(start),
@@ -215,8 +221,8 @@ function buildSearchResult(
   >();
 
   spans.spans.forEach((span) => {
-    const traceId = span.traceId;
-    const startTime = span.time?.toDate() || new Date();
+    const traceId = traceIdToString(span.traceId);
+    const startTime = protobufToDate(span.time!) || new Date();
     const duration = span.duration
       ? Number(span.duration.seconds || 0) * 1000 +
         (span.duration.nanos || 0) / 1000000

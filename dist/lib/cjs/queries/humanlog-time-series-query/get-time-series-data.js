@@ -11,6 +11,7 @@ Object.defineProperty(exports, "getTimeSeriesData", {
 const _pluginsystem = require("@perses-dev/plugin-system");
 const _constants = require("../constants");
 const _types_pb = require("api/js/types/v1/types_pb");
+const _time = require("../../utils/time");
 function buildTimeSeries(response) {
     if (!response?.data?.data?.shape.case || response.data.data.shape.case !== "freeForm") {
         return [];
@@ -40,7 +41,7 @@ function buildTimeSeries(response) {
         // Extract timestamp
         let timestamp;
         if (timeVal.kind.case === "ts") {
-            timestamp = timeVal.kind.value.toDate().getTime();
+            timestamp = (0, _time.protobufToDate)(timeVal.kind.value).getTime();
         } else {
             continue; // Skip if not timestamp
         }

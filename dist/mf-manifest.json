@@ -9,7 +9,7 @@
       "buildName": "@humanlogio/perses-plugin"
     },
     "remoteEntry": {
-      "name": "__mf/js/Humanlog.6159e3bc.js",
+      "name": "__mf/js/Humanlog.a15eed62.js",
       "path": "",
       "type": "global"
     },
@@ -26,105 +26,18 @@
   },
   "shared": [
     {
-      "id": "Humanlog:react",
-      "name": "react",
-      "version": "18.2.0",
-      "singleton": true,
-      "requiredVersion": "18.2.0",
-      "assets": {
-        "js": {
-          "async": [],
-          "sync": [
-            "__mf/js/async/1512.b2bed874.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "Humanlog:react-dom",
-      "name": "react-dom",
-      "version": "18.2.0",
-      "singleton": true,
-      "requiredVersion": "18.2.0",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js"
-          ],
-          "sync": [
-            "__mf/js/async/7987.563bba5e.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "Humanlog:@perses-dev/plugin-system",
-      "name": "@perses-dev/plugin-system",
-      "version": "^0.51.1",
-      "singleton": true,
-      "requiredVersion": "^0.51.1",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/9652.4f4104ba.js",
-            "__mf/js/async/634.fe663cf0.js",
-            "__mf/js/async/6929.489ea1db.js",
-            "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.8c578a33.js",
-            "__mf/js/async/8780.62c23b4f.js",
-            "__mf/js/async/7323.077389a6.js",
-            "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.970ddad3.js",
-            "__mf/js/async/9217.475623cc.js",
-            "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/6363.e442334b.js",
-            "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/8332.93555bba.js",
-            "__mf/js/async/5853.0934981c.js",
-            "__mf/js/async/3312.1771220a.js",
-            "__mf/js/async/3539.da7d64c3.js",
-            "__mf/js/async/6903.9206bee1.js",
-            "__mf/js/async/2469.67aea8fb.js",
-            "__mf/js/async/9480.7d671a80.js",
-            "__mf/js/async/2803.f6c12e25.js",
-            "__mf/js/async/3948.c886a16c.js",
-            "__mf/js/async/7421.1421c98c.js"
-          ],
-          "sync": [
-            "__mf/js/async/4662.4e493d4b.js"
-          ]
-        },
-        "css": {
-          "async": [
-            "__mf/css/async/6910.06dad2b8.css"
-          ],
-          "sync": []
-        }
-      }
-    },
-    {
       "id": "Humanlog:@emotion/react",
       "name": "@emotion/react",
-      "version": "^11.11.3",
+      "version": "11.14.0",
       "singleton": true,
       "requiredVersion": "^11.11.3",
       "assets": {
         "js": {
           "async": [
-            "__mf/js/async/1512.b2bed874.js"
+            "__mf/js/async/6237.91741f82.js"
           ],
           "sync": [
-            "__mf/js/async/5583.ca4efe6c.js"
+            "__mf/js/async/3292.86276469.js"
           ]
         },
         "css": {
@@ -136,19 +49,70 @@
     {
       "id": "Humanlog:@emotion/styled",
       "name": "@emotion/styled",
-      "version": "^11.3.0",
+      "version": "11.14.1",
       "singleton": true,
       "requiredVersion": "^11.14.1",
       "assets": {
         "js": {
           "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/5583.ca4efe6c.js"
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/3292.86276469.js"
           ],
           "sync": [
-            "__mf/js/async/6363.e442334b.js",
-            "__mf/js/async/7148.76177158.js",
-            "__mf/js/async/7421.1421c98c.js"
+            "__mf/js/async/4385.1ef7157e.js",
+            "__mf/js/async/6766.3d7b7afd.js",
+            "__mf/js/async/9147.676aa39b.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:@hookform/resolvers",
+      "name": "@hookform/resolvers",
+      "version": "3.10.0",
+      "singleton": true,
+      "requiredVersion": "^3.10.0",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/1818.0f8622d0.js",
+            "__mf/js/async/6237.91741f82.js"
+          ],
+          "sync": [
+            "__mf/js/async/5342.ec8a3be9.js",
+            "__mf/js/async/9313.b6ff50ce.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:@perses-dev/components",
+      "name": "@perses-dev/components",
+      "version": "0.51.1",
+      "singleton": true,
+      "requiredVersion": "^0.51.1",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/5098.340f9f66.js",
+            "__mf/js/async/3292.86276469.js",
+            "__mf/js/async/6766.3d7b7afd.js",
+            "__mf/js/async/2822.ff036eea.js",
+            "__mf/js/async/8433.24c24564.js",
+            "__mf/js/async/8312.659569b4.js",
+            "__mf/js/async/1818.0f8622d0.js"
+          ],
+          "sync": [
+            "__mf/js/async/8432.4057ce8d.js"
           ]
         },
         "css": {
@@ -166,13 +130,13 @@
       "assets": {
         "js": {
           "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/634.fe663cf0.js",
-            "__mf/js/async/6929.489ea1db.js",
-            "__mf/js/async/7323.077389a6.js"
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/2267.dc59225f.js",
+            "__mf/js/async/3611.526dcb92.js",
+            "__mf/js/async/8433.24c24564.js"
           ],
           "sync": [
-            "__mf/js/async/9217.475623cc.js"
+            "__mf/js/async/2822.ff036eea.js"
           ]
         },
         "css": {
@@ -182,18 +146,162 @@
       }
     },
     {
-      "id": "Humanlog:@tanstack/react-query",
-      "name": "@tanstack/react-query",
-      "version": "^4.39.1",
+      "id": "Humanlog:@perses-dev/dashboards",
+      "name": "@perses-dev/dashboards",
+      "version": "0.51.1",
       "singleton": true,
-      "requiredVersion": "^4.40.1",
+      "requiredVersion": "^0.51.1",
       "assets": {
         "js": {
           "async": [
-            "__mf/js/async/1512.b2bed874.js"
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/5098.340f9f66.js",
+            "__mf/js/async/3292.86276469.js",
+            "__mf/js/async/1818.0f8622d0.js",
+            "__mf/js/async/6766.3d7b7afd.js",
+            "__mf/js/async/837.1169048c.js",
+            "__mf/js/async/2822.ff036eea.js",
+            "__mf/js/async/2267.dc59225f.js",
+            "__mf/js/async/3611.526dcb92.js",
+            "__mf/js/async/8433.24c24564.js",
+            "__mf/js/async/6886.a1305762.js",
+            "__mf/js/async/1696.c8355408.js",
+            "__mf/js/async/2604.b497e173.js",
+            "__mf/js/async/8432.4057ce8d.js",
+            "__mf/js/async/8312.659569b4.js",
+            "__mf/js/async/5408.217a0d8f.js",
+            "__mf/js/async/5342.ec8a3be9.js",
+            "__mf/js/async/6130.a7b31f8b.js",
+            "__mf/js/async/921.d870cddd.js",
+            "__mf/js/async/9909.484081d4.js",
+            "__mf/js/async/5608.c7b25bc3.js",
+            "__mf/js/async/367.d71e5eec.js",
+            "__mf/js/async/7935.908d98e5.js",
+            "__mf/js/async/1668.cdc7b48f.js",
+            "__mf/js/async/4385.1ef7157e.js",
+            "__mf/js/async/5824.fdc66561.js"
           ],
           "sync": [
-            "__mf/js/async/8332.93555bba.js"
+            "__mf/js/async/1317.81e046f6.js"
+          ]
+        },
+        "css": {
+          "async": [
+            "__mf/css/async/8197.06dad2b8.css"
+          ],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:@perses-dev/explore",
+      "name": "@perses-dev/explore",
+      "version": "0.51.1",
+      "singleton": true,
+      "requiredVersion": "^0.51.1",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/3292.86276469.js",
+            "__mf/js/async/6766.3d7b7afd.js",
+            "__mf/js/async/837.1169048c.js",
+            "__mf/js/async/2822.ff036eea.js",
+            "__mf/js/async/2267.dc59225f.js",
+            "__mf/js/async/3611.526dcb92.js",
+            "__mf/js/async/8433.24c24564.js",
+            "__mf/js/async/6886.a1305762.js",
+            "__mf/js/async/1696.c8355408.js",
+            "__mf/js/async/5154.add309b7.js",
+            "__mf/js/async/2604.b497e173.js",
+            "__mf/js/async/8432.4057ce8d.js",
+            "__mf/js/async/5098.340f9f66.js",
+            "__mf/js/async/8312.659569b4.js",
+            "__mf/js/async/1818.0f8622d0.js",
+            "__mf/js/async/5408.217a0d8f.js",
+            "__mf/js/async/5342.ec8a3be9.js",
+            "__mf/js/async/6130.a7b31f8b.js",
+            "__mf/js/async/921.d870cddd.js",
+            "__mf/js/async/9909.484081d4.js",
+            "__mf/js/async/367.d71e5eec.js",
+            "__mf/js/async/1317.81e046f6.js",
+            "__mf/js/async/7935.908d98e5.js",
+            "__mf/js/async/1668.cdc7b48f.js",
+            "__mf/js/async/4385.1ef7157e.js",
+            "__mf/js/async/5824.fdc66561.js"
+          ],
+          "sync": [
+            "__mf/js/async/5608.c7b25bc3.js"
+          ]
+        },
+        "css": {
+          "async": [
+            "__mf/css/async/8197.06dad2b8.css"
+          ],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:@perses-dev/plugin-system",
+      "name": "@perses-dev/plugin-system",
+      "version": "0.51.1",
+      "singleton": true,
+      "requiredVersion": "^0.51.1",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/5098.340f9f66.js",
+            "__mf/js/async/3292.86276469.js",
+            "__mf/js/async/1818.0f8622d0.js",
+            "__mf/js/async/6766.3d7b7afd.js",
+            "__mf/js/async/837.1169048c.js",
+            "__mf/js/async/2822.ff036eea.js",
+            "__mf/js/async/2267.dc59225f.js",
+            "__mf/js/async/3611.526dcb92.js",
+            "__mf/js/async/8433.24c24564.js",
+            "__mf/js/async/8312.659569b4.js",
+            "__mf/js/async/5154.add309b7.js",
+            "__mf/js/async/2604.b497e173.js",
+            "__mf/js/async/8432.4057ce8d.js",
+            "__mf/js/async/5342.ec8a3be9.js",
+            "__mf/js/async/6130.a7b31f8b.js",
+            "__mf/js/async/921.d870cddd.js",
+            "__mf/js/async/9909.484081d4.js",
+            "__mf/js/async/5608.c7b25bc3.js",
+            "__mf/js/async/367.d71e5eec.js",
+            "__mf/js/async/1317.81e046f6.js",
+            "__mf/js/async/5824.fdc66561.js",
+            "__mf/js/async/7935.908d98e5.js",
+            "__mf/js/async/1668.cdc7b48f.js",
+            "__mf/js/async/4385.1ef7157e.js"
+          ],
+          "sync": [
+            "__mf/js/async/5408.217a0d8f.js"
+          ]
+        },
+        "css": {
+          "async": [
+            "__mf/css/async/8197.06dad2b8.css"
+          ],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:@tanstack/react-query",
+      "name": "@tanstack/react-query",
+      "version": "5.85.8",
+      "singleton": true,
+      "requiredVersion": "^5.85.8",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/6237.91741f82.js"
+          ],
+          "sync": [
+            "__mf/js/async/6130.a7b31f8b.js"
           ]
         },
         "css": {
@@ -212,78 +320,7 @@
         "js": {
           "async": [],
           "sync": [
-            "__mf/js/async/7323.077389a6.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "Humanlog:@perses-dev/components",
-      "name": "@perses-dev/components",
-      "version": "0.51.1",
-      "singleton": true,
-      "requiredVersion": "^0.51.1",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/9217.475623cc.js",
-            "__mf/js/async/7323.077389a6.js",
-            "__mf/js/async/6363.e442334b.js",
-            "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.970ddad3.js"
-          ],
-          "sync": [
-            "__mf/js/async/8780.62c23b4f.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "Humanlog:react-hook-form",
-      "name": "react-hook-form",
-      "version": "7.46.1",
-      "singleton": true,
-      "requiredVersion": "^7.61.1",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js"
-          ],
-          "sync": [
-            "__mf/js/async/9514.970ddad3.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "Humanlog:react-router-dom",
-      "name": "react-router-dom",
-      "version": "6.26.0",
-      "singleton": true,
-      "requiredVersion": "^6.30.1",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/7987.563bba5e.js"
-          ],
-          "sync": [
-            "__mf/js/async/5853.0934981c.js"
+            "__mf/js/async/8433.24c24564.js"
           ]
         },
         "css": {
@@ -302,126 +339,7 @@
         "js": {
           "async": [],
           "sync": [
-            "__mf/js/async/3312.1771220a.js"
-          ]
-        },
-        "css": {
-          "async": [],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "Humanlog:@perses-dev/explore",
-      "name": "@perses-dev/explore",
-      "version": "^0.51.1",
-      "singleton": true,
-      "requiredVersion": "^0.51.1",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/6293.52c165c6.js",
-            "__mf/js/async/2051.eb134323.js",
-            "__mf/js/async/9652.4f4104ba.js",
-            "__mf/js/async/634.fe663cf0.js",
-            "__mf/js/async/6929.489ea1db.js",
-            "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.8c578a33.js",
-            "__mf/js/async/8780.62c23b4f.js",
-            "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/7323.077389a6.js",
-            "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.970ddad3.js",
-            "__mf/js/async/9217.475623cc.js",
-            "__mf/js/async/6363.e442334b.js",
-            "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/4662.4e493d4b.js",
-            "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/8332.93555bba.js",
-            "__mf/js/async/5853.0934981c.js",
-            "__mf/js/async/3312.1771220a.js",
-            "__mf/js/async/6903.9206bee1.js",
-            "__mf/js/async/2469.67aea8fb.js",
-            "__mf/js/async/2803.f6c12e25.js",
-            "__mf/js/async/3948.c886a16c.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/9480.7d671a80.js"
-          ],
-          "sync": [
-            "__mf/js/async/3539.da7d64c3.js"
-          ]
-        },
-        "css": {
-          "async": [
-            "__mf/css/async/6910.06dad2b8.css"
-          ],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "Humanlog:@perses-dev/dashboards",
-      "name": "@perses-dev/dashboards",
-      "version": "^0.51.1",
-      "singleton": true,
-      "requiredVersion": "^0.51.1",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/6293.52c165c6.js",
-            "__mf/js/async/2051.eb134323.js",
-            "__mf/js/async/634.fe663cf0.js",
-            "__mf/js/async/6929.489ea1db.js",
-            "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.8c578a33.js",
-            "__mf/js/async/8780.62c23b4f.js",
-            "__mf/js/async/7323.077389a6.js",
-            "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.970ddad3.js",
-            "__mf/js/async/9217.475623cc.js",
-            "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/6363.e442334b.js",
-            "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/8332.93555bba.js",
-            "__mf/js/async/4662.4e493d4b.js",
-            "__mf/js/async/5853.0934981c.js",
-            "__mf/js/async/3312.1771220a.js",
-            "__mf/js/async/3539.da7d64c3.js",
-            "__mf/js/async/6903.9206bee1.js",
-            "__mf/js/async/2803.f6c12e25.js",
-            "__mf/js/async/3948.c886a16c.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/9480.7d671a80.js"
-          ],
-          "sync": [
-            "__mf/js/async/2469.67aea8fb.js"
-          ]
-        },
-        "css": {
-          "async": [
-            "__mf/css/async/6910.06dad2b8.css"
-          ],
-          "sync": []
-        }
-      }
-    },
-    {
-      "id": "Humanlog:date-fns-tz",
-      "name": "date-fns-tz",
-      "version": "3.2.0",
-      "singleton": true,
-      "requiredVersion": "^3.2.0",
-      "assets": {
-        "js": {
-          "async": [
-            "__mf/js/async/634.fe663cf0.js",
-            "__mf/js/async/7323.077389a6.js"
-          ],
-          "sync": [
-            "__mf/js/async/367.b55529c9.js"
+            "__mf/js/async/9909.484081d4.js"
           ]
         },
         "css": {
@@ -440,7 +358,7 @@
         "js": {
           "async": [],
           "sync": [
-            "__mf/js/async/3948.c886a16c.js"
+            "__mf/js/async/1668.cdc7b48f.js"
           ]
         },
         "css": {
@@ -450,20 +368,102 @@
       }
     },
     {
-      "id": "Humanlog:@hookform/resolvers",
-      "name": "@hookform/resolvers",
-      "version": "^2.0.0",
+      "id": "Humanlog:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
       "singleton": true,
-      "requiredVersion": "^3.10.0",
+      "requiredVersion": "18.2.0",
       "assets": {
         "js": {
           "async": [
-            "__mf/js/async/9514.970ddad3.js",
-            "__mf/js/async/1512.b2bed874.js"
+            "__mf/js/async/6237.91741f82.js"
           ],
           "sync": [
-            "__mf/js/async/5869.a193ac12.js",
-            "__mf/js/async/9456.e7f8f8f9.js"
+            "__mf/js/async/5098.340f9f66.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:react-hook-form",
+      "name": "react-hook-form",
+      "version": "7.62.0",
+      "singleton": true,
+      "requiredVersion": "^7.62.0",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/6237.91741f82.js"
+          ],
+          "sync": [
+            "__mf/js/async/1818.0f8622d0.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:react-router-dom",
+      "name": "react-router-dom",
+      "version": "6.30.1",
+      "singleton": true,
+      "requiredVersion": "^6.30.1",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/5098.340f9f66.js"
+          ],
+          "sync": [
+            "__mf/js/async/921.d870cddd.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "18.2.0",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "__mf/js/async/6237.91741f82.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "Humanlog:date-fns-tz",
+      "name": "date-fns-tz",
+      "version": "3.2.0",
+      "singleton": true,
+      "requiredVersion": "^3.2.0",
+      "assets": {
+        "js": {
+          "async": [
+            "__mf/js/async/2267.dc59225f.js",
+            "__mf/js/async/8433.24c24564.js"
+          ],
+          "sync": [
+            "__mf/js/async/8312.659569b4.js"
           ]
         },
         "css": {
@@ -481,52 +481,50 @@
       "assets": {
         "js": {
           "sync": [
-            "__mf/js/async/2500.0b63ab8d.js",
-            "__mf/js/async/3045.07b26ce9.js",
-            "__mf/js/async/__federation_expose_HumanlogDatasource.3961a64a.js"
+            "__mf/js/async/1883.47147c05.js",
+            "__mf/js/async/__federation_expose_HumanlogDatasource.00724cbf.js"
           ],
           "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/6293.52c165c6.js",
-            "__mf/js/async/1630.c2859646.js",
-            "__mf/js/async/2500.0b63ab8d.js",
-            "__mf/js/async/3085.07eb7966.js",
-            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.140eb573.js",
-            "__mf/js/async/2051.eb134323.js",
-            "__mf/js/async/510.00869de1.js",
-            "__mf/js/async/8681.5057b421.js",
-            "__mf/js/async/4662.4e493d4b.js",
-            "__mf/js/async/9652.4f4104ba.js",
-            "__mf/js/async/634.fe663cf0.js",
-            "__mf/js/async/6929.489ea1db.js",
-            "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.8c578a33.js",
-            "__mf/js/async/8780.62c23b4f.js",
-            "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/7323.077389a6.js",
-            "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.970ddad3.js",
-            "__mf/js/async/9217.475623cc.js",
-            "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/6363.e442334b.js",
-            "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/8332.93555bba.js",
-            "__mf/js/async/5853.0934981c.js",
-            "__mf/js/async/3312.1771220a.js",
-            "__mf/js/async/3539.da7d64c3.js",
-            "__mf/js/async/6903.9206bee1.js",
-            "__mf/js/async/2469.67aea8fb.js",
-            "__mf/js/async/2803.f6c12e25.js",
-            "__mf/js/async/3948.c886a16c.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/9480.7d671a80.js"
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/6886.a1305762.js",
+            "__mf/js/async/4693.9faa6eb5.js",
+            "__mf/js/async/4386.ca26fdfe.js",
+            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.f17f70b5.js",
+            "__mf/js/async/1696.c8355408.js",
+            "__mf/js/async/5578.6506a439.js",
+            "__mf/js/async/7027.2dfd7905.js",
+            "__mf/js/async/5408.217a0d8f.js",
+            "__mf/js/async/5154.add309b7.js",
+            "__mf/js/async/2267.dc59225f.js",
+            "__mf/js/async/3611.526dcb92.js",
+            "__mf/js/async/837.1169048c.js",
+            "__mf/js/async/2604.b497e173.js",
+            "__mf/js/async/8432.4057ce8d.js",
+            "__mf/js/async/5098.340f9f66.js",
+            "__mf/js/async/8433.24c24564.js",
+            "__mf/js/async/8312.659569b4.js",
+            "__mf/js/async/1818.0f8622d0.js",
+            "__mf/js/async/2822.ff036eea.js",
+            "__mf/js/async/5342.ec8a3be9.js",
+            "__mf/js/async/6766.3d7b7afd.js",
+            "__mf/js/async/3292.86276469.js",
+            "__mf/js/async/6130.a7b31f8b.js",
+            "__mf/js/async/921.d870cddd.js",
+            "__mf/js/async/9909.484081d4.js",
+            "__mf/js/async/5608.c7b25bc3.js",
+            "__mf/js/async/367.d71e5eec.js",
+            "__mf/js/async/1317.81e046f6.js",
+            "__mf/js/async/7935.908d98e5.js",
+            "__mf/js/async/1668.cdc7b48f.js",
+            "__mf/js/async/4385.1ef7157e.js",
+            "__mf/js/async/5824.fdc66561.js"
           ]
         },
         "css": {
           "sync": [],
           "async": [
-            "__mf/css/async/3085.8d795043.css",
-            "__mf/css/async/6910.06dad2b8.css"
+            "__mf/css/async/4386.32c0627c.css",
+            "__mf/css/async/8197.06dad2b8.css"
           ]
         }
       },
@@ -538,55 +536,54 @@
       "assets": {
         "js": {
           "sync": [
-            "__mf/js/async/1630.c2859646.js",
-            "__mf/js/async/2500.0b63ab8d.js",
-            "__mf/js/async/3085.07eb7966.js",
-            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.140eb573.js"
+            "__mf/js/async/4693.9faa6eb5.js",
+            "__mf/js/async/4386.ca26fdfe.js",
+            "__mf/js/async/__federation_expose_HumanlogTimeSeriesQuery.f17f70b5.js"
           ],
           "async": [
-            "__mf/js/async/1512.b2bed874.js",
-            "__mf/js/async/6363.e442334b.js",
-            "__mf/js/async/5583.ca4efe6c.js",
-            "__mf/js/async/6293.52c165c6.js",
-            "__mf/js/async/2051.eb134323.js",
-            "__mf/js/async/510.00869de1.js",
-            "__mf/js/async/8681.5057b421.js",
-            "__mf/js/async/4662.4e493d4b.js",
-            "__mf/js/async/9652.4f4104ba.js",
-            "__mf/js/async/634.fe663cf0.js",
-            "__mf/js/async/6929.489ea1db.js",
-            "__mf/js/async/2405.aededf3e.js",
-            "__mf/js/async/4853.8c578a33.js",
-            "__mf/js/async/8780.62c23b4f.js",
-            "__mf/js/async/7987.563bba5e.js",
-            "__mf/js/async/7323.077389a6.js",
-            "__mf/js/async/367.b55529c9.js",
-            "__mf/js/async/9514.970ddad3.js",
-            "__mf/js/async/9217.475623cc.js",
-            "__mf/js/async/9456.e7f8f8f9.js",
-            "__mf/js/async/8332.93555bba.js",
-            "__mf/js/async/5853.0934981c.js",
-            "__mf/js/async/3312.1771220a.js",
-            "__mf/js/async/3539.da7d64c3.js",
-            "__mf/js/async/6903.9206bee1.js",
-            "__mf/js/async/2469.67aea8fb.js",
-            "__mf/js/async/2803.f6c12e25.js",
-            "__mf/js/async/3948.c886a16c.js",
-            "__mf/js/async/7421.1421c98c.js",
-            "__mf/js/async/9480.7d671a80.js",
-            "__mf/js/async/2861.29bd8028.js",
-            "__mf/js/async/7289.51776124.js",
-            "__mf/js/async/5671.f44578ec.js",
-            "__mf/js/async/60.c9ca6fe2.js",
-            "__mf/js/async/3178.d52a0493.js"
+            "__mf/js/async/6237.91741f82.js",
+            "__mf/js/async/3292.86276469.js",
+            "__mf/js/async/6766.3d7b7afd.js",
+            "__mf/js/async/6886.a1305762.js",
+            "__mf/js/async/1696.c8355408.js",
+            "__mf/js/async/5578.6506a439.js",
+            "__mf/js/async/7027.2dfd7905.js",
+            "__mf/js/async/5408.217a0d8f.js",
+            "__mf/js/async/5154.add309b7.js",
+            "__mf/js/async/2267.dc59225f.js",
+            "__mf/js/async/3611.526dcb92.js",
+            "__mf/js/async/837.1169048c.js",
+            "__mf/js/async/2604.b497e173.js",
+            "__mf/js/async/8432.4057ce8d.js",
+            "__mf/js/async/5098.340f9f66.js",
+            "__mf/js/async/8433.24c24564.js",
+            "__mf/js/async/8312.659569b4.js",
+            "__mf/js/async/1818.0f8622d0.js",
+            "__mf/js/async/2822.ff036eea.js",
+            "__mf/js/async/5342.ec8a3be9.js",
+            "__mf/js/async/6130.a7b31f8b.js",
+            "__mf/js/async/921.d870cddd.js",
+            "__mf/js/async/9909.484081d4.js",
+            "__mf/js/async/5608.c7b25bc3.js",
+            "__mf/js/async/367.d71e5eec.js",
+            "__mf/js/async/1317.81e046f6.js",
+            "__mf/js/async/7935.908d98e5.js",
+            "__mf/js/async/1668.cdc7b48f.js",
+            "__mf/js/async/4385.1ef7157e.js",
+            "__mf/js/async/5824.fdc66561.js",
+            "__mf/js/async/9644.b4aedd34.js",
+            "__mf/js/async/7225.ee7d73d4.js",
+            "__mf/js/async/9485.683cd5fc.js",
+            "__mf/js/async/3816.98b22d36.js",
+            "__mf/js/async/5797.61ba45af.js"
           ]
         },
         "css": {
           "sync": [
-            "__mf/css/async/3085.8d795043.css"
+            "__mf/css/async/4386.32c0627c.css"
           ],
           "async": [
-            "__mf/css/async/6910.06dad2b8.css"
+            "__mf/css/async/8197.06dad2b8.css"
           ]
         }
       },
